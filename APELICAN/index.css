@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Header{
+    height: auto;
+    width:100%;
+    background-color:aqua;
+    
+
+}
+.header1{
+    display: flex;
+    justify-content: flex-end;
+    background-color:#F8F8F8;
+    padding-top: 5px;
+}
+.header2{
+    height: 75px;
+    width: 100%;
+    background-color:#FFFFFF;
+    display: flex;
+    
+}
+.header2-a
+{
+    height: 75px;
+    width: 18%;
+    /* background-color: aqua; */
+    
+}
+
+.header2-b{
+    height: 75px;
+    width: 55%;
+    /* background-color: navajowhite; */
+    /* padding-left: 70px; */
+    
+    
+}
+/* .header2-c{
+    padding-top: 20px;
+} */
+.icon{
+    border-radius: 10px;
+    height: 25px;
+    width: 140px;
+}
+/* .fa-search{
+    height: 20px;
+    width: 60px;
+    border-radius: 30px; */
+/* } */
+.header2-b ul{
+    list-style: none;
+    display: flex;
+    
+
+}
+.header2-b ul li{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.header2-c{
+    height: 75px;
+    width:27%;
+    padding-top: 20px;
+
+    /* background-color: cornflowerblue; */
+    display: flex;
+    
+    
+    
+
+}
+ /* .fa-search{
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.icon{
+    padding-left: 30px;
+    padding-top: 20px;
+}  */
+
+.header3{
+    height: 20px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+.main-image{
+    height: 500px;
+    width: 100%;
+    background-color: cadetblue;
+    position: relative;
+   
+}
+.main-image h1{
+    position: absolute;
+    top: 209px;
+    left: 444px;
+    color: white;
+}
+.main-image p{
+    position: absolute;
+    top: 275px;
+    left: 434px;
+    color: white;
+    font-size: 20px;
+}
+#main-image-btn{
+    position: absolute;
+    top: 331px;
+    left: 617px;
+    border-radius: 250px;
+    background-color: white;
+    color: black;
+    height: 50px;
+    width: 150px;
+
+}
+.middle-part{
+    height: 800px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.left{
+    height: 800px;
+    width: 50%;
+    background-color: blueviolet;
+}
+.right{
+    height: 800px;
+    width: 50%;
+    background-color: beige;
+}
+.left-bottom{
+    height: 35%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+.left-top{
+    height: 65%;
+    width: 100%;
+    background-color: darkgreen;
+    background-image: url(https://media.pelican.com/img/tiles/pelican-shop-watertight-green-case.jpg);
+    background-position: center;
+    background-size: cover;
+    border:2px solid white;
+}
+.right-top{
+    height: 35%;
+    width: 100%;
+    background-color: bisque;
+    display: flex;
+}
+.right-bottom{
+    height: 65%;
+    width: 100%;
+    background-color: blue;
+    background-image: url(https://media.pelican.com/img/tiles/pelican-shop-30qt-white-hard-cooler.jpg);
+    background-position: center;
+    background-size: cover;
+    border:2px solid white;
+}
+.right-top-1{
+    height: 100%;
+    width: 50%;
+    background-color: cadetblue;
+    background-image: url(https://media.pelican.com/img/tiles/pelican-marketplace.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    
+}
+.right-top-2{
+    height: 100%;
+    width: 50%;
+    background-color: blueviolet;
+    background-image: url(https://media.pelican.com/img/tiles/pelican-shop-case-accessories-molle-panel.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    
+}
+.left-bottom-1{
+    height: 100%;
+    width: 50%;
+    background-color: cadetblue;
+    background-image: url(http://media.pelican.com/img/tiles/pelican-shop-bags-backpack.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 2px solid white;
+    
+    
+}
+.left-bottom-2{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    background-image: url(https://media.pelican.com/img/tiles/pelican-shop-black-tactical-led-flashlights.jpg);
+    background-position: center;
+    background-size: cover;
+    border:2px solid white;
+    
+}
+.sign-up{
+    height: 180px;
+    width: 100%;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sign-upleft{
+    height: 150px;
+    width: 40% ;
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+}
+.sign-upright{
+    height: 150px;
+    width: 40%;
+    /* background-color: beige; */
+    margin-top: 20px;
+}
+.sign-upleft h3{
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.sign-upleft h4{
+    padding-left: 40px;
+    padding-bottom: 30px;
+}
+.email{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.text-email{
+    height: 30px;
+    width: 290px;
+    /* border-radius: 30px; */
+    
+}
+.buttn-signup{
+    height: 32px;
+    width: 60px;
+    background-color:#777777;
+    color: white;
+
+}
+.footer-main{
+    height: 300px;
+    width: 100%;
+    background-color: #2F2F2F;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer-main ul{
+    list-style: none;
+}
+
+
+.footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section11{
+    height: 280px;
+    width: 20%;
+    /* background-color: aqua; */
+
+}
+.section22{
+    height: 280px;
+    width: 20%;
+    /* background-color:wheat; */
+
+}
+.section33{
+    height: 280px;
+    width: 20%;
+    /* background-color:blueviolet; */
+
+}
+.section44{
+    height: 280px;
+    width: 20%;
+    /* background-color:tan; */
+
+}
+.footer-end{
+    height: 120px;
+    width: 100%;
+    background-color: black;
+    padding-top: 15px;;
+
+
+    
+}
+.footer-endcontent{
+    height: 80px;
+    width:40%;
+    /* background-color:yellow; */
+    margin-left: 430px;
+    text-align: center; 
+    color: #FFFFFF;
+   
+
+    
+
+    
+    
+   
+}
